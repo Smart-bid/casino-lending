@@ -5,7 +5,6 @@
     z-index: 3;
 
     padding: 50px 25px 45px 75px;
-    margin-right: 20px;
     border-radius: 10px;
     background: -webkit-linear-gradient( 90deg, rgb(183,134,40) 0%, rgb(198,147,32) 22%, rgb(219,165,20) 51%, rgb(238,182,9) 80%, rgb(252,194,1) 100%);    
 
@@ -32,7 +31,10 @@
         align-self: center;
 
         position: relative;
-        padding-left: 40px;
+
+        border: 5px solid #ffc248;
+        padding: 13px 20px;
+        border-radius: 5px;
     }
 
     @include breakpoint(1100) { 
