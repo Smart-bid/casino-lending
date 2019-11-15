@@ -83,6 +83,10 @@ button {
         opacity: 0.2;
     }
 
+    @include breakpoint(1400) {
+        background-position: left;
+    }
+
     @include breakpoint(800) {
         background-position: left;
     }
