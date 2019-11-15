@@ -45,10 +45,8 @@ button {
     }
 
     @include breakpoint(1100) {
-        justify-content: center;
-
         &::after { 
-            display: none;
+            background-position: left;
         }
     }
 
@@ -58,7 +56,7 @@ button {
 
     @include breakpoint(600) {
         &::after {
-            left: -200px;
+            display: none;
         }
     }
 }
