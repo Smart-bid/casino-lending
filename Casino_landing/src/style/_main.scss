@@ -4,16 +4,21 @@
     align-items: flex-start;
     z-index: 3;
 
+    padding: 50px 25px 45px 75px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: -webkit-linear-gradient( 90deg, rgb(183,134,40) 0%, rgb(198,147,32) 22%, rgb(219,165,20) 51%, rgb(238,182,9) 80%, rgb(252,194,1) 100%);    
+
     font-family: "Changa", serif;
 
     color: rgb(255, 194, 72);
 
      p:nth-of-type(1) {
-         margin-bottom: 45px;
+         margin-bottom: 40px;
      }
 
      a:nth-of-type(1) {
-        margin-top: 60px;
+        margin-top: 45px;
      }
 
     &-wrapper {
@@ -28,6 +33,10 @@
 
     @include breakpoint(1100) { 
         padding-right: 40px;
+    }
+
+    @include breakpoint(480) {
+        padding: 30px 25px 25px 25px;
     }
 
     @include breakpoint(400) {

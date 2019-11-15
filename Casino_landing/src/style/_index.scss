@@ -43,22 +43,8 @@ button {
         z-index: 2;
     }
 
-    @include breakpoint(1100) {
+    @include breakpoint(1200) {
         justify-content: center;
-
-        &::after { 
-            display: none;
-        }
-    }
-
-    @include breakpoint(800) {
-        justify-content: center;
-    }
-
-    @include breakpoint(600) {
-        &::after {
-            left: -200px;
-        }
     }
 }
 
@@ -83,7 +69,7 @@ button {
         opacity: 0.2;
     }
 
-    @include breakpoint(1400) {
+    @include breakpoint(1200) {
         background-position: left;
     }
 
@@ -115,8 +101,8 @@ button {
     text-transform: uppercase;
     
     border-radius: 5px;      
-    background-image: -webkit-linear-gradient( 90deg, rgb(183,134,40) 0%, rgb(198,147,32) 22%, rgb(219,165,20) 51%, rgb(238,182,9) 80%, rgb(252,194,1) 100%);
-
+    background-image: -webkit-linear-gradient( 90deg, rgb(91,49,203) 0%, rgb(68,38,109) 100%);
+      
     cursor: pointer;
 
     &_big {
@@ -129,7 +115,7 @@ button {
 
 .text {
     text-transform: uppercase;
-    color: #ffc248;
+    color: #311755;
     line-height: 0.917;
 
     &__extra-light {
@@ -139,20 +125,16 @@ button {
         text-align: left;
     }
 
-    &_30px {
-        font-size: 30px;
+    &_24px {
+        font-size: 24px;
     }
 
-    &_60px {
-        font-size: 60px;
+    &_36px {
+        font-size: 36px;
     }
 
-    &-orange {
-        color: #be9c16;
-    }
-
-    &-white {
-        color: #fff;
+    &-violet {
+        color: #7b3ede;
     }
 
     @include breakpoint(500) {
@@ -164,8 +146,4 @@ button {
             font-size: 40px;
         }
     }
-}
-
-.neon-green {
-    text-shadow: 0 0 10px #3f6b34, 0 0 20px #3f6b34, 0 0 30px #3f6b34, 0 0 40px #3f6b34, 0 0 50px #3f6b34, 0 0 60px #3f6b34, 0 0 70px #3f6b34;
 }
