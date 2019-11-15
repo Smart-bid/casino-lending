@@ -14,7 +14,7 @@ function App() {
               <p className="header__logo_bottom">lorem ipsum</p>
             </div>
 
-            <input type="button" value="Register Now" className="register" />
+            <a href="#" className="register">Register Now</a>
           </header>
 
           <div className="main-wrapper">
@@ -23,7 +23,7 @@ function App() {
                 <p className="text text__extra-bold text_36px wrapper">
                   FIRST DEPOSIT BONUS: 200% UP TO £50 +  200 BONUS
                 </p>
-              <p className="text text__extra-bold text_24px p_indent"><span className="text-violet">+40 free SPINS</span></p>
+              <p className="text text__extra-bold text_24px p_indent">+40 free SPINS</p>
 
               <a href="#" className="register register_big">Register Now</a>
             </main>

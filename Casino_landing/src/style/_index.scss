@@ -45,18 +45,6 @@ button {
     background-size: cover;
     background-position: center;
 
-    &::after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: -180px;
-
-        background-repeat: no-repeat;
-        background-position: center;
-        opacity: 0.2;
-    }
-
     @include breakpoint(1200) {
         background-position: left;
     }
@@ -77,7 +65,7 @@ button {
 
 .register {
     width: 237px;
-    height: 58px;
+    height: 60px;
 
     display: flex;
     justify-content: center;
@@ -85,26 +73,33 @@ button {
 
     font-size: 18px;
     font-weight: 500;
+    font-family: "Changa", serif;
 
-    color: #fff;
+    color: #3e161a;
     text-transform: uppercase;
     
     border-radius: 5px;      
-    background-image: -webkit-linear-gradient( 90deg, rgb(91,49,203) 0%, rgb(68,38,109) 100%);
+    background-image: url('../images/back-button-header.png');
+    background-repeat: no-repeat;
       
     cursor: pointer;
 
     &_big {
         width: 285px;
-        height: 83px;
+        height: 67px;
+
+        align-self: center;
+
+        background-image: url('../images/back-button-main.png');
 
         font-size: 24px;
+        color: #fbc300;
     }
 }
 
 .text {
     text-transform: uppercase;
-    color: #311755;
+    color: #fbc300;
     line-height: 0.917;
 
     &__extra-bold {
@@ -120,10 +115,6 @@ button {
 
     &_36px {
         font-size: 36px;
-    }
-
-    &-violet {
-        color: #7b3ede;
     }
 
     @include breakpoint(500) {
