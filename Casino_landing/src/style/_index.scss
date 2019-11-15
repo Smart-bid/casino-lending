@@ -34,30 +34,36 @@ button {
     &::after {
         content: "";
         position: absolute;
-        width: 100%;
-        height: 100%;
-        top: -80px;
-        right: -350px;
+        width: 1000px;
+        height: 920px;
+        top: -30px;
+        right: 0;
         background-image: url('../images/money.png');
         background-repeat: no-repeat;
         background-position: center;
         z-index: 2;
     }
 
-    @include breakpoint(1100) {
+    @include breakpoint(1460) {
         &::after { 
-            background-position: left;
+            background-image: url('../images/money-media-700.png');
+            width: 700px;
         }
     }
 
-    @include breakpoint(800) {
+    @include breakpoint(1130) {
+        &::after { 
+            background-image: url('../images/money-media-400.png');
+            width: 400px;
+        }
+    }
+
+    @include breakpoint(900) {
+        &::after { 
+           display: none;
+        }
+
         justify-content: center;
-    }
-
-    @include breakpoint(600) {
-        &::after {
-            display: none;
-        }
     }
 }
 
