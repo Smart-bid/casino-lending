@@ -43,15 +43,7 @@ button {
         z-index: 2;
     }
 
-    @include breakpoint(1100) {
-        justify-content: center;
-
-        &::after { 
-            display: none;
-        }
-    }
-
-    @include breakpoint(800) {
+    @include breakpoint(1200) {
         justify-content: center;
     }
 
@@ -83,11 +75,7 @@ button {
         opacity: 0.2;
     }
 
-    @include breakpoint(1400) {
-        background-position: left;
-    }
-
-    @include breakpoint(800) {
+    @include breakpoint(1200) {
         background-position: left;
     }
 }
@@ -139,12 +127,12 @@ button {
         text-align: left;
     }
 
-    &_30px {
-        font-size: 30px;
+    &_24px {
+        font-size: 24px;
     }
 
-    &_60px {
-        font-size: 60px;
+    &_36px {
+        font-size: 36px;
     }
 
     &-orange {

@@ -19,11 +19,11 @@ function App() {
 
           <div className="main-wrapper">
             <main className="main">
-              <p className="text text_30px">Discover a new world of casino</p>
-                <p className="text text__extra-light text_60px wrapper">
+              <p className="text text_24px">Discover a new world of casino</p>
+                <p className="text text__extra-light text_36px wrapper">
                   <span className="text-orange">FIRST DEPOSIT BONUS: 200% UP TO £50 +  200 BONUS</span>
                 </p>
-              <p className="text text__extra-bold text_30px p_indent"><span className="text-white neon-green">+40 free SPINS</span></p>
+              <p className="text text__extra-bold text_24px p_indent"><span className="text-white neon-green">+40 free SPINS</span></p>
 
               <a href="#" className="register register_big">Register Now</a>
             </main>
