@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Smart-bid.github.io/casino-lending/tree/v.1/static/css/main.fcb99f1d.chunk.css",
-    "main.js": "/Smart-bid.github.io/casino-lending/tree/v.1/static/js/main.71132c91.chunk.js",
-    "main.js.map": "/Smart-bid.github.io/casino-lending/tree/v.1/static/js/main.71132c91.chunk.js.map",
-    "runtime-main.js": "/Smart-bid.github.io/casino-lending/tree/v.1/static/js/runtime-main.8d3749c9.js",
-    "runtime-main.js.map": "/Smart-bid.github.io/casino-lending/tree/v.1/static/js/runtime-main.8d3749c9.js.map",
-    "static/js/2.080dfb86.chunk.js": "/Smart-bid.github.io/casino-lending/tree/v.1/static/js/2.080dfb86.chunk.js",
-    "static/js/2.080dfb86.chunk.js.map": "/Smart-bid.github.io/casino-lending/tree/v.1/static/js/2.080dfb86.chunk.js.map",
-    "index.html": "/Smart-bid.github.io/casino-lending/tree/v.1/index.html",
-    "precache-manifest.cd3e785137a9ccfb3ae2a6157c99c2e6.js": "/Smart-bid.github.io/casino-lending/tree/v.1/precache-manifest.cd3e785137a9ccfb3ae2a6157c99c2e6.js",
-    "service-worker.js": "/Smart-bid.github.io/casino-lending/tree/v.1/service-worker.js",
-    "static/css/main.fcb99f1d.chunk.css.map": "/Smart-bid.github.io/casino-lending/tree/v.1/static/css/main.fcb99f1d.chunk.css.map",
-    "static/media/main.scss": "/Smart-bid.github.io/casino-lending/tree/v.1/static/media/footer-back.883bc050.png"
+    "main.css": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/static/css/main.ecec11db.chunk.css",
+    "main.js": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/static/js/main.727f07a1.chunk.js",
+    "main.js.map": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/static/js/main.727f07a1.chunk.js.map",
+    "runtime-main.js": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/static/js/runtime-main.d6e1ea4a.js",
+    "runtime-main.js.map": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/static/js/runtime-main.d6e1ea4a.js.map",
+    "static/js/2.32dfecee.chunk.js": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/static/js/2.32dfecee.chunk.js",
+    "static/js/2.32dfecee.chunk.js.map": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/static/js/2.32dfecee.chunk.js.map",
+    "index.html": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/index.html",
+    "precache-manifest.4fa0b189c7110f1333a495ab85d08573.js": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/precache-manifest.4fa0b189c7110f1333a495ab85d08573.js",
+    "service-worker.js": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/service-worker.js",
+    "static/css/main.ecec11db.chunk.css.map": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/static/css/main.ecec11db.chunk.css.map",
+    "static/media/main.scss": "/Smart-bid.github.io/casino-lending/tree/v.4/Casino_landing/static/media/footer-back.883bc050.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d3749c9.js",
-    "static/js/2.080dfb86.chunk.js",
-    "static/css/main.fcb99f1d.chunk.css",
-    "static/js/main.71132c91.chunk.js"
+    "static/js/runtime-main.d6e1ea4a.js",
+    "static/js/2.32dfecee.chunk.js",
+    "static/css/main.ecec11db.chunk.css",
+    "static/js/main.727f07a1.chunk.js"
   ]
 }
