@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/casino-lending/static/css/main.a2ae9c9e.chunk.css",
-    "main.js": "/casino-lending/static/js/main.a4163e90.chunk.js",
-    "main.js.map": "/casino-lending/static/js/main.a4163e90.chunk.js.map",
-    "runtime-main.js": "/casino-lending/static/js/runtime-main.e6db501c.js",
-    "runtime-main.js.map": "/casino-lending/static/js/runtime-main.e6db501c.js.map",
-    "static/js/2.32dfecee.chunk.js": "/casino-lending/static/js/2.32dfecee.chunk.js",
-    "static/js/2.32dfecee.chunk.js.map": "/casino-lending/static/js/2.32dfecee.chunk.js.map",
+    "main.js": "/casino-lending/static/js/main.58c643b2.chunk.js",
+    "main.js.map": "/casino-lending/static/js/main.58c643b2.chunk.js.map",
+    "runtime-main.js": "/casino-lending/static/js/runtime-main.91ebc8a7.js",
+    "runtime-main.js.map": "/casino-lending/static/js/runtime-main.91ebc8a7.js.map",
+    "static/js/2.e2a6dd48.chunk.js": "/casino-lending/static/js/2.e2a6dd48.chunk.js",
+    "static/js/2.e2a6dd48.chunk.js.map": "/casino-lending/static/js/2.e2a6dd48.chunk.js.map",
     "index.html": "/casino-lending/index.html",
-    "precache-manifest.838b837c62c04d6a527adc2806957abe.js": "/casino-lending/precache-manifest.838b837c62c04d6a527adc2806957abe.js",
+    "precache-manifest.e2ebe9cf8d2f6c5760505bda452656bd.js": "/casino-lending/precache-manifest.e2ebe9cf8d2f6c5760505bda452656bd.js",
     "service-worker.js": "/casino-lending/service-worker.js",
     "static/css/main.a2ae9c9e.chunk.css.map": "/casino-lending/static/css/main.a2ae9c9e.chunk.css.map",
     "static/media/main.scss": "/casino-lending/static/media/back-main.ae676928.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6db501c.js",
-    "static/js/2.32dfecee.chunk.js",
+    "static/js/runtime-main.91ebc8a7.js",
+    "static/js/2.e2a6dd48.chunk.js",
     "static/css/main.a2ae9c9e.chunk.css",
-    "static/js/main.a4163e90.chunk.js"
+    "static/js/main.58c643b2.chunk.js"
   ]
 }
