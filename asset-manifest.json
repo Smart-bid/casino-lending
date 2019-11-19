@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Smart-bid.io/casino-lending/static/css/main.28093aa1.chunk.css",
-    "main.js": "/Smart-bid.io/casino-lending/static/js/main.8807340f.chunk.js",
-    "main.js.map": "/Smart-bid.io/casino-lending/static/js/main.8807340f.chunk.js.map",
-    "runtime-main.js": "/Smart-bid.io/casino-lending/static/js/runtime-main.b03852d6.js",
-    "runtime-main.js.map": "/Smart-bid.io/casino-lending/static/js/runtime-main.b03852d6.js.map",
-    "static/js/2.a67f9ffc.chunk.js": "/Smart-bid.io/casino-lending/static/js/2.a67f9ffc.chunk.js",
-    "static/js/2.a67f9ffc.chunk.js.map": "/Smart-bid.io/casino-lending/static/js/2.a67f9ffc.chunk.js.map",
-    "index.html": "/Smart-bid.io/casino-lending/index.html",
-    "precache-manifest.a966c2ecb21084e9d25fb9a416cd3647.js": "/Smart-bid.io/casino-lending/precache-manifest.a966c2ecb21084e9d25fb9a416cd3647.js",
-    "service-worker.js": "/Smart-bid.io/casino-lending/service-worker.js",
-    "static/css/main.28093aa1.chunk.css.map": "/Smart-bid.io/casino-lending/static/css/main.28093aa1.chunk.css.map",
-    "static/media/main.scss": "/Smart-bid.io/casino-lending/static/media/footer-back.883bc050.png"
+    "main.css": "/youvovk.io/casino4/static/css/main.1401d886.chunk.css",
+    "main.js": "/youvovk.io/casino4/static/js/main.9d11a223.chunk.js",
+    "main.js.map": "/youvovk.io/casino4/static/js/main.9d11a223.chunk.js.map",
+    "runtime-main.js": "/youvovk.io/casino4/static/js/runtime-main.eb8c6e42.js",
+    "runtime-main.js.map": "/youvovk.io/casino4/static/js/runtime-main.eb8c6e42.js.map",
+    "static/js/2.d5a5c860.chunk.js": "/youvovk.io/casino4/static/js/2.d5a5c860.chunk.js",
+    "static/js/2.d5a5c860.chunk.js.map": "/youvovk.io/casino4/static/js/2.d5a5c860.chunk.js.map",
+    "index.html": "/youvovk.io/casino4/index.html",
+    "precache-manifest.b908f57e0146a96850c52038e41b6d6c.js": "/youvovk.io/casino4/precache-manifest.b908f57e0146a96850c52038e41b6d6c.js",
+    "service-worker.js": "/youvovk.io/casino4/service-worker.js",
+    "static/css/main.1401d886.chunk.css.map": "/youvovk.io/casino4/static/css/main.1401d886.chunk.css.map",
+    "static/media/main.scss": "/youvovk.io/casino4/static/media/footer-back.883bc050.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b03852d6.js",
-    "static/js/2.a67f9ffc.chunk.js",
-    "static/css/main.28093aa1.chunk.css",
-    "static/js/main.8807340f.chunk.js"
+    "static/js/runtime-main.eb8c6e42.js",
+    "static/js/2.d5a5c860.chunk.js",
+    "static/css/main.1401d886.chunk.css",
+    "static/js/main.9d11a223.chunk.js"
   ]
 }
