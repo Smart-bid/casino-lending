@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/casino-lending/static/css/main.a2ae9c9e.chunk.css",
-    "main.js": "/casino-lending/static/js/main.58c643b2.chunk.js",
-    "main.js.map": "/casino-lending/static/js/main.58c643b2.chunk.js.map",
-    "runtime-main.js": "/casino-lending/static/js/runtime-main.91ebc8a7.js",
-    "runtime-main.js.map": "/casino-lending/static/js/runtime-main.91ebc8a7.js.map",
-    "static/js/2.e2a6dd48.chunk.js": "/casino-lending/static/js/2.e2a6dd48.chunk.js",
-    "static/js/2.e2a6dd48.chunk.js.map": "/casino-lending/static/js/2.e2a6dd48.chunk.js.map",
+    "main.css": "/casino-lending/static/css/main.9c20a6db.chunk.css",
+    "main.js": "/casino-lending/static/js/main.727f07a1.chunk.js",
+    "main.js.map": "/casino-lending/static/js/main.727f07a1.chunk.js.map",
+    "runtime-main.js": "/casino-lending/static/js/runtime-main.e6db501c.js",
+    "runtime-main.js.map": "/casino-lending/static/js/runtime-main.e6db501c.js.map",
+    "static/js/2.32dfecee.chunk.js": "/casino-lending/static/js/2.32dfecee.chunk.js",
+    "static/js/2.32dfecee.chunk.js.map": "/casino-lending/static/js/2.32dfecee.chunk.js.map",
     "index.html": "/casino-lending/index.html",
-    "precache-manifest.e2ebe9cf8d2f6c5760505bda452656bd.js": "/casino-lending/precache-manifest.e2ebe9cf8d2f6c5760505bda452656bd.js",
+    "precache-manifest.dd5009b319be956bf83b29b5bbbf1c14.js": "/casino-lending/precache-manifest.dd5009b319be956bf83b29b5bbbf1c14.js",
     "service-worker.js": "/casino-lending/service-worker.js",
-    "static/css/main.a2ae9c9e.chunk.css.map": "/casino-lending/static/css/main.a2ae9c9e.chunk.css.map",
-    "static/media/main.scss": "/casino-lending/static/media/back-main.ae676928.jpg"
+    "static/css/main.9c20a6db.chunk.css.map": "/casino-lending/static/css/main.9c20a6db.chunk.css.map",
+    "static/media/main.scss": "/casino-lending/static/media/footer-back.883bc050.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.91ebc8a7.js",
-    "static/js/2.e2a6dd48.chunk.js",
-    "static/css/main.a2ae9c9e.chunk.css",
-    "static/js/main.58c643b2.chunk.js"
+    "static/js/runtime-main.e6db501c.js",
+    "static/js/2.32dfecee.chunk.js",
+    "static/css/main.9c20a6db.chunk.css",
+    "static/js/main.727f07a1.chunk.js"
   ]
 }
