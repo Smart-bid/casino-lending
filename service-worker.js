@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Smart-bid.github.io/casino-lending/precache-manifest.01eb3e1b97849faaca175d8f42ec8f8c.js"
+  "/Smart-bid.github.io/casino-lending/precache-manifest.b29643e21a7b23be98226aec4007e603.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71baab1ebf85bc1ff99de2c02e495fa2",
+    "revision": "385e785226babf0052b5f4aaa7088830",
     "url": "/Smart-bid.github.io/casino-lending/index.html"
   },
   {
-    "revision": "a739ff72090c9102d422",
+    "revision": "5434852a274f96966781",
     "url": "/Smart-bid.github.io/casino-lending/static/css/main.7463b9a4.chunk.css"
   },
   {
-    "revision": "20df2e1b0bb6699f615e",
-    "url": "/Smart-bid.github.io/casino-lending/static/js/2.32dfecee.chunk.js"
+    "revision": "2a9ec1f7c21812ac017b",
+    "url": "/Smart-bid.github.io/casino-lending/static/js/2.a67f9ffc.chunk.js"
   },
   {
-    "revision": "a739ff72090c9102d422",
-    "url": "/Smart-bid.github.io/casino-lending/static/js/main.727f07a1.chunk.js"
+    "revision": "5434852a274f96966781",
+    "url": "/Smart-bid.github.io/casino-lending/static/js/main.8807340f.chunk.js"
   },
   {
-    "revision": "237c30812f562c85f19b",
-    "url": "/Smart-bid.github.io/casino-lending/static/js/runtime-main.2e28f5fd.js"
+    "revision": "c94e6942cc7ffeb60bf8",
+    "url": "/Smart-bid.github.io/casino-lending/static/js/runtime-main.3de03826.js"
   },
   {
     "revision": "4e63df33be450599a80a6fb431e7b1e0",
