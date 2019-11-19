@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Smart-bid.github.io/casino-lending/static/css/main.7463b9a4.chunk.css",
-    "main.js": "/Smart-bid.github.io/casino-lending/static/js/main.727f07a1.chunk.js",
-    "main.js.map": "/Smart-bid.github.io/casino-lending/static/js/main.727f07a1.chunk.js.map",
-    "runtime-main.js": "/Smart-bid.github.io/casino-lending/static/js/runtime-main.2e28f5fd.js",
-    "runtime-main.js.map": "/Smart-bid.github.io/casino-lending/static/js/runtime-main.2e28f5fd.js.map",
-    "static/js/2.32dfecee.chunk.js": "/Smart-bid.github.io/casino-lending/static/js/2.32dfecee.chunk.js",
-    "static/js/2.32dfecee.chunk.js.map": "/Smart-bid.github.io/casino-lending/static/js/2.32dfecee.chunk.js.map",
-    "index.html": "/Smart-bid.github.io/casino-lending/index.html",
-    "precache-manifest.01eb3e1b97849faaca175d8f42ec8f8c.js": "/Smart-bid.github.io/casino-lending/precache-manifest.01eb3e1b97849faaca175d8f42ec8f8c.js",
-    "service-worker.js": "/Smart-bid.github.io/casino-lending/service-worker.js",
-    "static/css/main.7463b9a4.chunk.css.map": "/Smart-bid.github.io/casino-lending/static/css/main.7463b9a4.chunk.css.map",
-    "static/media/main.scss": "/Smart-bid.github.io/casino-lending/static/media/footer-back.883bc050.png"
+    "main.css": "/casino-lending/static/css/main.9c20a6db.chunk.css",
+    "main.js": "/casino-lending/static/js/main.727f07a1.chunk.js",
+    "main.js.map": "/casino-lending/static/js/main.727f07a1.chunk.js.map",
+    "runtime-main.js": "/casino-lending/static/js/runtime-main.e6db501c.js",
+    "runtime-main.js.map": "/casino-lending/static/js/runtime-main.e6db501c.js.map",
+    "static/js/2.32dfecee.chunk.js": "/casino-lending/static/js/2.32dfecee.chunk.js",
+    "static/js/2.32dfecee.chunk.js.map": "/casino-lending/static/js/2.32dfecee.chunk.js.map",
+    "index.html": "/casino-lending/index.html",
+    "precache-manifest.dd5009b319be956bf83b29b5bbbf1c14.js": "/casino-lending/precache-manifest.dd5009b319be956bf83b29b5bbbf1c14.js",
+    "service-worker.js": "/casino-lending/service-worker.js",
+    "static/css/main.9c20a6db.chunk.css.map": "/casino-lending/static/css/main.9c20a6db.chunk.css.map",
+    "static/media/main.scss": "/casino-lending/static/media/footer-back.883bc050.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2e28f5fd.js",
+    "static/js/runtime-main.e6db501c.js",
     "static/js/2.32dfecee.chunk.js",
-    "static/css/main.7463b9a4.chunk.css",
+    "static/css/main.9c20a6db.chunk.css",
     "static/js/main.727f07a1.chunk.js"
   ]
 }
