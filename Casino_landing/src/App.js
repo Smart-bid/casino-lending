@@ -29,9 +29,8 @@ export class App extends React.Component {
       <>
         <div className="background">
 
-          <div className="container">
-
-            <header className={`header ${headerBack && 'header__background'}`}>
+         <div className={`header-wrapper ${headerBack && 'header-wrapper_background'}`}>
+            <header className="header">
               <div className="header__logo-wrapper">
                 <p className="header__logo">logo</p>
                 <p className="header__logo_bottom">lorem ipsum</p>
@@ -39,7 +38,9 @@ export class App extends React.Component {
 
               <input type="button" value="Register Now" className="register" />
             </header>
+          </div>
 
+          <div className="container">
             <div className="main-wrapper">
               <main className="main">
                 <p className="text text_24px">Discover a new world of casino</p>
