@@ -1,69 +1,92 @@
 import React from 'react';
 import './main.scss';
 
-function App() {
-  return (
-    <>
-      <div className="background">
+export class App extends React.Component {
+  state = {
+    headerBack: false,
+  }
 
-        <div className="container">
+  listenScrollEvent = e => {
+    if (window.scrollY > 50) {
+      this.setState({
+        headerBack: true,
+      })
+    } else {
+      this.setState({
+        headerBack: false,
+      })
+    }
+  }
 
-          <header className="header">
-            <div className="header__logo-wrapper">
-              <p className="header__logo">logo</p>
-              <p className="header__logo_bottom">lorem ipsum</p>
-            </div>
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent);
+  }
 
-            <input type="button" value="Register Now" className="register" />
-          </header>
+  render () {
+    const { headerBack } = this.state;
 
-          <div className="main-wrapper">
-            <main className="main">
-              <p className="text text_30px">Discover a new world of casino</p>
-                <p className="text text__extra-light text_60px wrapper">
-                  <span className="text-orange">FIRST DEPOSIT BONUS: 200% UP TO £50 +  200 BONUS</span>
-                </p>
-              <p className="text text__extra-bold text_30px p_indent"><span className="text-red">+40 free SPINS</span></p>
+    return (
+      <>
+        <div className="background">
 
-              <a href="#" className="register register_big">Register Now</a>
-            </main>
+          <div className={`header-wrapper ${headerBack && 'header-wrapper_background'}`}>
+            <header className="header">
+              <div className="header__logo-wrapper">
+                <p className="header__logo">logo</p>
+                <p className="header__logo_bottom">lorem ipsum</p>
+              </div>
+
+              <input type="button" value="Register Now" className="register" />
+            </header>
           </div>
 
-         
-        </div>
-      </div>
+          <div className="container">
+            <div className="main-wrapper">
+              <main className="main">
+                <p className="text text_30px">Discover a new world of casino</p>
+                  <p className="text text__extra-light text_60px wrapper">
+                    <span className="text-orange">FIRST DEPOSIT BONUS: 200% UP TO £50 +  200 BONUS</span>
+                  </p>
+                <p className="text text__extra-bold text_30px p_indent"><span className="text-red">+40 free SPINS</span></p>
 
-      <div className="footer-background">
-        <div className="footer-wrapper">
-          <footer className="footer">
-            <div className="footer__top">
-                <img src="./images/visa.png" alt="" />
-                <img src="./images/master-card.png" alt="" />
-                <img src="./images/skrill.png" alt="" />
-                <img src="./images/pay.png" alt="" />
-                <img src="./images/visa.png" alt="" />
-                <img src="./images/master-card.png" alt="" />
-                <img src="./images/skrill.png" alt="" />
-                <img src="./images/pay.png" alt="" />
-                <img src="./images/visa.png" alt="" />
-                <img src="./images/master-card.png" alt="" />
-                <img src="./images/skrill.png" alt="" />
+                <a href="#" className="register register_big">Register Now</a>
+              </main>
             </div>
 
-            <div className="footer__bottom">
-                <img src="./images/skrill.png" alt="" />
-                <img src="./images/pay.png" alt="" />
-                <img src="./images/visa.png" alt="" />
-                <img src="./images/master-card.png" alt="" />
-                <img src="./images/skrill.png" alt="" />
-                <img src="./images/pay.png" alt="" />
-                <img src="./images/visa.png" alt="" />
-            </div>
-          </footer>
+          
+          </div>
         </div>
-      </div>
-    </>
-  );
+
+        <div className="footer-background">
+          <div className="footer-wrapper">
+            <footer className="footer">
+              <div className="footer__top">
+                  <img src="./images/visa.png" alt="" />
+                  <img src="./images/master-card.png" alt="" />
+                  <img src="./images/skrill.png" alt="" />
+                  <img src="./images/pay.png" alt="" />
+                  <img src="./images/visa.png" alt="" />
+                  <img src="./images/master-card.png" alt="" />
+                  <img src="./images/skrill.png" alt="" />
+                  <img src="./images/pay.png" alt="" />
+                  <img src="./images/visa.png" alt="" />
+                  <img src="./images/master-card.png" alt="" />
+                  <img src="./images/skrill.png" alt="" />
+              </div>
+
+              <div className="footer__bottom">
+                  <img src="./images/skrill.png" alt="" />
+                  <img src="./images/pay.png" alt="" />
+                  <img src="./images/visa.png" alt="" />
+                  <img src="./images/master-card.png" alt="" />
+                  <img src="./images/skrill.png" alt="" />
+                  <img src="./images/pay.png" alt="" />
+                  <img src="./images/visa.png" alt="" />
+              </div>
+            </footer>
+          </div>
+        </div>
+      </>
+   );
+  }
 }
-
-export default App;
