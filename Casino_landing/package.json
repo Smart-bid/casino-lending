@@ -1,6 +1,6 @@
 {
-  "homepage": "http:/Smart-bid.github.io/casino-lending",
-  "name": "v.4",
+  "homepage": "http:/Smart-bid.github.io/casino-lending/",
+  "name": "casino-lending",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
