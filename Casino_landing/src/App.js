@@ -1,14 +1,36 @@
 import React from 'react';
 import './main.scss';
 
-function App() {
+export class App extends React.Component {
+  state = {
+    headerBack: false,
+  }
+
+  listenScrollEvent = e => {
+    if (window.scrollY > 50) {
+      this.setState({
+        headerBack: true,
+      })
+    } else {
+      this.setState({
+        headerBack: false,
+      })
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent);
+  }
+
+  render () {
+    const { headerBack } = this.state;
   return (
     <>
       <div className="background">
 
         <div className="container">
 
-          <header className="header">
+          <header className={`header ${headerBack && 'header__background'}`}>
             <div className="header__logo-wrapper">
               <p className="header__logo">logo</p>
               <p className="header__logo_bottom">lorem ipsum</p>
@@ -63,7 +85,6 @@ function App() {
         </div>
       </div>
     </>
-  );
+    );
+  }
 }
-
-export default App;
